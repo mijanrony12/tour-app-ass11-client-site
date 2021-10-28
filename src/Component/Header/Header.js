@@ -5,26 +5,26 @@ import './Header.css'
 const Header = () => {
 
     const changeStyle = {
-    color:'red'
+    color:'#e67e22'
 }
 
     return (
         <div>
                <Navbar bg="light" variant="light" sticky="top" collapseOnSelect expand="lg">
                     <Container>
-                    <Navbar.Brand  href="#home">TG <span className="title">Tour</span> Agency</Navbar.Brand>
+                    <Navbar.Brand  href="#home" ><h4 className="title">TG <span >Tour</span> Agency</h4></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end navbar-design">
                          <NavLink activeStyle={changeStyle} to="/home">Home</NavLink>
                         <NavLink  to="">Services</NavLink>
                         <NavLink  to="">Experts</NavLink>
                      
-                           <Button  variant="success">LogOut</Button>
+                             <NavLink to=""><Button  variant="success">LogOut</Button></NavLink>
                            
                             <NavLink  to="/login">Login</NavLink>
-                        <Navbar.Text>
+                        <NavLink to="">
                             Signed in as: <a href="#login"></a>
-                        </Navbar.Text>
+                        </NavLink>
                 </Navbar.Collapse>
                         
                     </Container>

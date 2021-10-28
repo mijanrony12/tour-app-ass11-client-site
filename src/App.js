@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Component/Header/Header';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import Home from './Component/Homes/Home/Home';
+import Footer from './Component/Footer/Footer';
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
                             <Home></Home>
                     </Route>
            </Switch>
+              <Footer></Footer>
       </BrowserRouter>
     </div>
   );
