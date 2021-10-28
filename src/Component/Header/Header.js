@@ -16,8 +16,8 @@ const Header = () => {
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end navbar-design">
                          <NavLink activeStyle={changeStyle} to="/home">Home</NavLink>
-                        <NavLink  to="">Services</NavLink>
-                        <NavLink  to="">Experts</NavLink>
+                        <NavLink   activeStyle={changeStyle}  to="/feedbacks">FeedBacks</NavLink>
+                        <NavLink  activeStyle={changeStyle}   to="">Experts</NavLink>
                      
                              <NavLink to=""><Button  variant="success">LogOut</Button></NavLink>
                            

@@ -3,8 +3,8 @@ import './WhyUs.css'
 const WhyUs = () => {
     return (
         <div className="container whyUs">
-              <h4>Why TG</h4>
-              <h1>Why You Are Travel With TG Tour Agency</h1>
+              <h4 className="miniTitle ">Why TG</h4>
+              <h1  className="headTitle">Why You Are Travel With TG Tour Agency</h1>
                 <div className="cards ">
                         <div className="text-center card">
                                 <i class="fas fa-user"></i><br />
