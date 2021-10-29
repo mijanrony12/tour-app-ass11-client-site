@@ -1,0 +1,27 @@
+.package {
+  box-shadow: 5px 5px 10px black;
+  border-radius: 10px;
+  transition: 0.6s;
+  overflow: hidden;
+}
+.package:hover {
+  transform: scale(0.9);
+}
+.package img {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 10px;
+}
+.content h4 {
+  color: #e67e22;
+  font-style: italic;
+}
+.content-price {
+  display: flex;
+  justify-content: space-between;
+  color: #006266;
+}

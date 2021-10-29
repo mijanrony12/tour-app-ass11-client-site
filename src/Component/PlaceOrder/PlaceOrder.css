@@ -1,0 +1,20 @@
+.placeOrder {
+  width: 25%;
+  margin: 80px auto;
+  border: 2px solid gray;
+  padding: 10px;
+}
+.placeOrder input {
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 5px;
+}
+.btn-color {
+  background-color: #e67e22;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+}

@@ -5,6 +5,8 @@ import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import Home from './Component/Homes/Home/Home';
 import Footer from './Component/Footer/Footer';
 import Feedbacks from './Component/Feedbacks/Feedbacks';
+import PlaceOrder from './Component/PlaceOrder/PlaceOrder';
+import Login from './Component/Login/Login';
 function App() {
   return (
     <div>
@@ -19,6 +21,12 @@ function App() {
                     </Route>
                      <Route path="/feedbacks">
                             <Feedbacks></Feedbacks>
+                    </Route>
+                     <Route path="/placeOrder">
+                            <PlaceOrder></PlaceOrder>
+                    </Route>
+                     <Route path="/login">
+                            <Login></Login>
                     </Route>
            </Switch>
               <Footer></Footer>
