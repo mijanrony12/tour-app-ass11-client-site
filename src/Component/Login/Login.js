@@ -3,12 +3,12 @@ import { Button } from 'react-bootstrap';
 import useFirebase from '../../Hooks/useFirebase';
 
 const Login = () => {
-    const { signInUsingGoogle } = useFirebase()
+    const { signInUsingGoogle,user,setUser } = useFirebase()
     
     const handleLogin = () => {
         signInUsingGoogle()
         .then((result) => {
-               
+               setUser(result.user)
              console.log(result.user)
        })
     }

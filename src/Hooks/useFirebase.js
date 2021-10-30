@@ -18,7 +18,7 @@ const useFirebase = () => {
 
     }
 
-    return {user, signInUsingGoogle, error}
+    return {user,setUser, signInUsingGoogle, error}
 }
 
 export default useFirebase;

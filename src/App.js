@@ -7,6 +7,7 @@ import Footer from './Component/Footer/Footer';
 import Feedbacks from './Component/Feedbacks/Feedbacks';
 import PlaceOrder from './Component/PlaceOrder/PlaceOrder';
 import Login from './Component/Login/Login';
+import AddPackage from './Component/AddPackage/AddPackage';
 function App() {
   return (
     <div>
@@ -24,6 +25,9 @@ function App() {
                     </Route>
                      <Route path="/placeOrder">
                             <PlaceOrder></PlaceOrder>
+                    </Route>
+                     <Route path="/AddPackage">
+                            <AddPackage></AddPackage>
                     </Route>
                      <Route path="/login">
                             <Login></Login>
