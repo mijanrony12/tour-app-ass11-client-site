@@ -9,7 +9,7 @@ const MyOrder = () => {
     
     //load myorder data
     useEffect(() => {
-        axios.get('http://localhost:5000/myOrder')
+        axios.get('https://boiling-bastion-33130.herokuapp.com/myOrder')
             .then(res => {
             // console.log(res.data)
                 setMyOrders(res.data)
@@ -23,7 +23,7 @@ const MyOrder = () => {
         const proceed = window.confirm('Are You sure, You to want to delete?')
         if (proceed)
         {
-             axios.delete(`http://localhost:5000/myOrder/${id}`)
+             axios.delete(`https://boiling-bastion-33130.herokuapp.com/myOrder/${id}`)
             .then(res => {
                
                 if (res.data.deletedCount)

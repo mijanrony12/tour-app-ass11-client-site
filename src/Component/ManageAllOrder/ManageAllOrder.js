@@ -7,7 +7,7 @@ const ManageAllOrder = () => {
 
     //all order get
     useEffect(() => {
-        axios('http://localhost:5000/allOrder')
+        axios('https://boiling-bastion-33130.herokuapp.com/allOrder')
             .then(res => {
                 setAllOders(res.data)
                 console.log(res.data);
@@ -19,7 +19,7 @@ const handleDelete = id => {
         const proceed = window.confirm('Are You sure, You to want to delete?')
         if (proceed)
         {
-             axios.delete(`http://localhost:5000/myOrder/${id}`)
+             axios.delete(`https://boiling-bastion-33130.herokuapp.com/myOrder/${id}`)
             .then(res => {
                 console.log(res.data)
                 if (res.data.deletedCount)
@@ -35,7 +35,7 @@ const handleDelete = id => {
 //try pending approved
   const data={status: 'Approved'}
     const handleApporved = id => {
-        axios.put(`http://localhost:5000/approve/${id}`, data)
+        axios.put(`https://boiling-bastion-33130.herokuapp.com/approve/${id}`, data)
             .then(res => {
                 console.log(res.data)
                 if (res.data.acknowledged)

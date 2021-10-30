@@ -6,7 +6,7 @@ const useFeedBack = () => {
     const [ feedbacks, setFeedbacks] = useState([])
     
     useEffect(() => {
-        axios.get('http://localhost:5000/feedback')
+        axios.get('https://boiling-bastion-33130.herokuapp.com/feedback')
             .then(res => {
             setFeedbacks(res.data)
         })

@@ -10,7 +10,7 @@ const PlaceOrder = () => {
     const onSubmit = data => {
         // post place order in database
         data.status = 'Pending..';
-        axios.post('http://localhost:5000/placeOrder', data)
+        axios.post('https://boiling-bastion-33130.herokuapp.com/placeOrder', data)
             .then(res => {
                
                 if (res.data.insertedId)

@@ -6,7 +6,7 @@ const AddPackage = () => {
      const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)
-        axios.post('http://localhost:5000/addPackage', data)
+        axios.post('https://boiling-bastion-33130.herokuapp.com/addPackage', data)
             .then(res => {
                 console.log(res.data);
                 if (res.data.insertedId)

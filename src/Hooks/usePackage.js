@@ -7,7 +7,7 @@ const usePackage = () => {
    const [ packages, setPackages] = useState([])
     
     useEffect(() => {
-        axios('http://localhost:5000/package')
+        axios('https://boiling-bastion-33130.herokuapp.com/package')
             .then(res => {
             setPackages(res.data)
         })
