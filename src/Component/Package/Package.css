@@ -2,7 +2,7 @@
   box-shadow: 5px 5px 10px black;
   border-radius: 10px;
   transition: 0.6s;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .package:hover {
   transform: scale(0.9);

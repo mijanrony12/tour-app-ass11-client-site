@@ -17,7 +17,7 @@ const Home = () => {
             <div className="container my-5 ">
                         <h4 className="miniTitle ">Choose Your Package</h4>
                         <h1 className="headTitle">Select Your Best Package <br /> For Your Travel</h1>
-                   <div className="row gy-5">
+                   <div className="row g-5 gx-5">
                 {
                         packages.map(pkg => <Package
                             key={ pkg._id }
