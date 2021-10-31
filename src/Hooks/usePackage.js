@@ -2,7 +2,7 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 
 
-
+//package data load from mongodb
 const usePackage = () => {
    const [ packages, setPackages] = useState([])
     

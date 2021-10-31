@@ -3,6 +3,7 @@ import './Footer.css'
 import payment from '../../image/payment.png'
 const Footer = () => {
     return (
+       // our contact ,payment,about us here
         <div className="row px-5 footer-section">
                  <div className="col-md-4">
                     <h2>TG Tour</h2>

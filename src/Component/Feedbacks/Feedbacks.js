@@ -7,6 +7,7 @@ const Feedbacks = () => {
     const [ feedbacks ] = useFeedBack()
 
     return (
+        //all feedback here
         <div className="container my-5 feedbacks">
                         <h4 className="miniTitle ">Our Traveller Say</h4>
                         <h1 className="headTitle">What Our Traveller Say <br /> About Us</h1>

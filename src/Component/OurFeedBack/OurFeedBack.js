@@ -3,6 +3,7 @@ import './OurFeedBack.css'
 const OurFeedBack = ({ feedback }) => {
     const { name, title, img, details } = feedback;
     return (
+        //our traveller say about us
         <div className="col-md-6 col-lg-4">
                  <div className="feedback-card">
                         <div>

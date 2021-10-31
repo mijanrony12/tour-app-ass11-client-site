@@ -1,7 +1,8 @@
 import React from 'react';
 import './WhyUs.css'
 const WhyUs = () => {
-    return (
+        return (
+            //why with us
         <div className="container whyUs">
               <h4 className="miniTitle ">Why TG</h4>
               <h1  className="headTitle">Why You Are Travel With TG Tour Agency</h1>

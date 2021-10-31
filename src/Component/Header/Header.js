@@ -12,6 +12,7 @@ const Header = () => {
 }
 
     return (
+        //this is a menubar component
         <div>
                <Navbar bg="light" variant="light" sticky="top" collapseOnSelect expand="lg">
                     <Container>

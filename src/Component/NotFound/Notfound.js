@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import notfound from '../../image/notfound.png'
 const Notfound = () => {
     return (
+        //this is not found page.
         <div className="notfound">
             <img src={ notfound } alt="" /> <br />
             <Link to="/">

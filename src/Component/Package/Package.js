@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 const Package = ({ packages }) => {
     const { name, price, img,time,title } = packages;
     return (
-        <div className="col-md-6 col-lg-4 package gx-5">
+        //single package here
+        <div className="col-md-4 col-lg-4 package">
                
                       <img src={img} alt="" />
               

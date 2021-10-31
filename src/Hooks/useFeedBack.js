@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-
+//feedback data load from mongodb
 const useFeedBack = () => {
     const [ feedbacks, setFeedbacks] = useState([])
     

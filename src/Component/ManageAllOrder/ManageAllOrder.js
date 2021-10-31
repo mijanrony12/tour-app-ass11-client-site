@@ -49,6 +49,7 @@ const handleDelete = id => {
 
 
     return (
+        //show all order
         <div className="container orders">
             <h1 className="miniTitle mb-5">We are Manage All Order</h1>
             
