@@ -12,6 +12,8 @@ import AuthPovider from './Context/AuthPovider';
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
 import MyOrder from './Component/MyOrder/MyOrder';
 import ManageAllOrder from './Component/ManageAllOrder/ManageAllOrder';
+import Notfound from './Component/NotFound/Notfound';
+import Packages from './Component/Packages/Packages';
 function App() {
   return (
     <div>
@@ -25,9 +27,12 @@ function App() {
                                 <Route  path="/home">
                                         <Home></Home>
                                 </Route>
-                                <PrivateRoute path="/feedbacks">
-                                        <Feedbacks></Feedbacks>
+                                <PrivateRoute  path="/packages">
+                                        <Packages></Packages>
                                 </PrivateRoute>
+                                <Route path="/feedbacks">
+                                        <Feedbacks></Feedbacks>
+                                </Route>
                                 <PrivateRoute path="/placeOrder">
                                         <PlaceOrder></PlaceOrder>
                                 </PrivateRoute>
@@ -42,6 +47,9 @@ function App() {
                                 </Route>
                                 <Route path="/login">
                                         <Login></Login>
+                                </Route>
+                                <Route path="*">
+                                        <Notfound></Notfound>
                                 </Route>
                         </Switch>
                         <Footer></Footer>

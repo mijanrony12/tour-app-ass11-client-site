@@ -3,6 +3,7 @@ import './Banner.css'
 import img from '../../../image/bann.jpg'
 const Banner = () => {
     return (
+        //create a banner
         <div className="banner">
                <div className="image">
                        <img src={img} alt="banner-image" />
